@@ -2,14 +2,14 @@
 Objective: Extract data from one or more tables using basic SQL SELECT statements.
 Focus Areas:
 
-Data retrieval and projection
-Filtering with WHERE clause
-Pattern matching with LIKE
-Range queries with BETWEEN
-Sorting results with ORDER BY
-Limiting output rows
-Removing duplicates with DISTINCT
-Column aliasing for readability
+Data retrieval and projection,
+Filtering with WHERE clause,
+Pattern matching with LIKE,
+Range queries with BETWEEN,
+Sorting results with ORDER BY,
+Limiting output rows,
+Removing duplicates with DISTINCT,
+Column aliasing for readability.
 
 
  Database Information
@@ -144,75 +144,42 @@ Combined concepts
 Practical analysis queries
 
 Best Practices Applied:
- Select specific columns when possible (not always *)
- Use WHERE to filter unnecessary data
- Comment complex queries
- Use meaningful column aliases
- Handle NULL values appropriately
- Test queries incrementally
+ Select specific columns when possible (not always *),
+ Use WHERE to filter unnecessary data,
+ Comment complex queries,
+ Use meaningful column aliases,
+ Handle NULL values appropriately,
+ Test queries incrementally.
 
 Skills Demonstrated:
 
-Data retrieval and projection
-Multiple filtering techniques
-Pattern matching
-Range and list filtering
-Result sorting and limiting
-Handling missing data
-Professional output formatting
+Data retrieval and projection,
+Multiple filtering techniques,
+Pattern matching,
+Range and list filtering,
+Result sorting and limiting,
+Handling missing data,
+Professional output formatting.
 
 
  Learning Outcomes
 After completing this task, you will be able to:
 
- Retrieve data from database tables efficiently
- Filter data using various conditions and operators
- Search for patterns in text data
- Query data within specific ranges
- Sort and organize query results
- Limit output for better performance
- Identify and handle NULL values
- Format results professionally with aliases
- Combine multiple concepts for complex queries
- Write clean, commented SQL code
+ Retrieve data from database tables efficiently,
+ Filter data using various conditions and operators,
+ Search for patterns in text data,
+ Query data within specific ranges,
+ Sort and organize query results,
+ Limit output for better performance,
+ Identify and handle NULL values,
+ Format results professionally with aliases,
+ Combine multiple concepts for complex queries,
+ Write clean, commented SQL code.
 
 
  Tools Used
 
-MySQL Workbench / DB Browser for SQLite
-Git & GitHub for version control
-Markdown for documentation
-
-
-
- Submission Checklist
-
- Database schema understood
- All query sections completed
- Interview questions answered
- Task explanation documented
- README.md created
- Code commented properly
- All files organized in repository
- GitHub repository created
- Repository link ready for submission
-
-
-
-Check your database connection
-Verify table and column names
-Ensure data exists in tables
-Review the query syntax
-
+MySQL Workbench, 
+GitHub for version control,
+Markdown for documentation.
 Free Tools Only: All tools used (MySQL Workbench, DB Browser) are free and open-source.
-
- Conclusion
-This task provides a comprehensive foundation in SQL data retrieval. The concepts learned here are essential for:
-
-Data analysis
-Report generation
-Application development
-Database administration
-Business intelligence
-
-Practice these queries, experiment with variations, and build confidence in SQL!

@@ -1,4 +1,4 @@
-📋 Task Overview
+ Task Overview
 Objective: Extract data from one or more tables using basic SQL SELECT statements.
 Focus Areas:
 
@@ -12,7 +12,7 @@ Removing duplicates with DISTINCT
 Column aliasing for readability
 
 
-🗄️ Database Information
+ Database Information
 Database Name: pv_db (Pharmacovigilance Database)
 Tables Used:
 
@@ -27,7 +27,7 @@ Lookup Tables - Reference data (Seriousness, Outcome, Drug Role, Route)
 
 Database Schema: The complete schema with INSERT statements is available in Task2.sql
 
-🎯 Key Concepts Covered
+ Key Concepts Covered
 1. SELECT Statement Basics
 
 SELECT * - Retrieve all columns
@@ -99,7 +99,7 @@ IS NOT NULL - Find existing values
 Data quality checks
 
 
-📊 Query Categories in the Script
+ Query Categories in the Script
 Section 1-2: Basic Data Retrieval
 
 SELECT * queries
@@ -144,12 +144,12 @@ Combined concepts
 Practical analysis queries
 
 Best Practices Applied:
-✅ Select specific columns when possible (not always *)
-✅ Use WHERE to filter unnecessary data
-✅ Comment complex queries
-✅ Use meaningful column aliases
-✅ Handle NULL values appropriately
-✅ Test queries incrementally
+ Select specific columns when possible (not always *)
+ Use WHERE to filter unnecessary data
+ Comment complex queries
+ Use meaningful column aliases
+ Handle NULL values appropriately
+ Test queries incrementally
 
 Skills Demonstrated:
 
@@ -162,22 +162,22 @@ Handling missing data
 Professional output formatting
 
 
-🎓 Learning Outcomes
+ Learning Outcomes
 After completing this task, you will be able to:
 
-✅ Retrieve data from database tables efficiently
-✅ Filter data using various conditions and operators
-✅ Search for patterns in text data
-✅ Query data within specific ranges
-✅ Sort and organize query results
-✅ Limit output for better performance
-✅ Identify and handle NULL values
-✅ Format results professionally with aliases
-✅ Combine multiple concepts for complex queries
-✅ Write clean, commented SQL code
+ Retrieve data from database tables efficiently
+ Filter data using various conditions and operators
+ Search for patterns in text data
+ Query data within specific ranges
+ Sort and organize query results
+ Limit output for better performance
+ Identify and handle NULL values
+ Format results professionally with aliases
+ Combine multiple concepts for complex queries
+ Write clean, commented SQL code
 
 
-🛠️ Tools Used
+ Tools Used
 
 MySQL Workbench / DB Browser for SQLite
 Git & GitHub for version control
@@ -185,7 +185,7 @@ Markdown for documentation
 
 
 
-✅ Submission Checklist
+ Submission Checklist
 
  Database schema understood
  All query sections completed
@@ -206,7 +206,7 @@ Review the query syntax
 
 Free Tools Only: All tools used (MySQL Workbench, DB Browser) are free and open-source.
 
-🎉 Conclusion
+ Conclusion
 This task provides a comprehensive foundation in SQL data retrieval. The concepts learned here are essential for:
 
 Data analysis

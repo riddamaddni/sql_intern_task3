@@ -1,0 +1,93 @@
+Task 3: Basic SELECT Queries - Detailed Explanation
+Overview
+This task focuses on mastering data retrieval from a Pharmacovigilance (PV) database using basic SQL SELECT statements. The objective is to understand how to extract, filter, and organize data effectively.
+
+Tables Used:
+
+Patients - Patient demographic information
+Reporters - Individuals/organizations reporting adverse events
+Reports - Adverse event reports
+Drugs - Medication information
+Reactions - Adverse reactions/side effects
+Lookup Tables - Reference data for codes
+
+
+Concepts Covered
+1. SELECT * (All Columns)
+What it does: Retrieves all columns from a table
+Logic: The asterisk (*) is a wildcard meaning "everything"
+Examples in Task:
+
+
+2. SELECT Specific Columns (Projection)
+What it does: Retrieves only specified columns
+Logic: List the exact columns you need, separated by commas
+
+3. WHERE Clause (Filtering)
+What it does: Filters rows based on conditions
+Logic: Only rows meeting the condition are returned
+
+4. AND Operator
+What it does: Combines multiple conditions (all must be true)
+Logic: Row must satisfy ALL conditions to be included
+
+5. OR Operator
+What it does: Combines conditions where at least one must be true
+Logic: Row is included if ANY condition is satisfied
+
+6. Combining AND & OR
+What it does: Creates complex filters with multiple logical conditions
+Logic: Use parentheses to control evaluation order (like math)
+
+7. LIKE Operator (Pattern Matching)
+What it does: Searches for patterns in text columns
+Logic: Uses wildcards to match partial strings
+
+8. BETWEEN Operator
+What it does: Checks if a value falls within a range
+Logic: Inclusive of both boundary values (includes start and end)
+
+9. IN Operator
+What it does: Checks if a value matches any value in a list
+Logic: Alternative to multiple OR conditions, more concise
+
+10. ORDER BY (Sorting)
+What it does: Sorts query results
+Logic:
+
+ASC = Ascending (default) - smallest to largest, A-Z
+DESC = Descending - largest to smallest, Z-A
+
+11. LIMIT Clause
+What it does: Restricts the number of rows returned
+Logic: Returns only the first N rows from the result set
+
+12. DISTINCT Keyword
+What it does: Removes duplicate values from results
+Logic: Returns only unique values/combinations
+
+13. Column Aliasing (AS Keyword)
+What it does: Renames columns in output for readability
+Logic: Creates a temporary name for a column in the result set
+
+
+14. NULL Handling
+What it does: Filters based on missing (NULL) or existing values
+Logic:
+
+IS NULL finds missing values
+IS NOT NULL finds existing values
+Cannot use = NULL (incorrect syntax)
+
+15. Comparison Operators
+What it does: Compares values for filtering
+Operators:
+
+= Equal to
+!= or <> Not equal to
+> Greater than
+< Less than
+>= Greater than or equal to
+<= Less than or equal to
+
+These concepts were used and applied in the task.

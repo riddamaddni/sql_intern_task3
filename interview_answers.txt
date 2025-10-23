@@ -1,0 +1,47 @@
+Question 1:
+What does SELECT * do?
+The SELECT * statement is used to retrieve all columns from a specified table. The asterisk (*) acts as a wildcard that means "all."
+
+Question 2:
+How do you filter rows?
+You filter rows using the WHERE clause. The WHERE clause is placed after the FROM clause and specifies a condition that rows must meet to be included in the results.
+
+Question 3:
+What is LIKE '%value%'?
+The LIKE operator is used in a WHERE clause for pattern matching in string (text) data. The percent sign (%) is a wildcard that matches zero or more characters.
+
+Question 4:
+What is BETWEEN used for?
+The BETWEEN operator is used to select values within a specific range. It is inclusive, meaning it includes both the start and end values.
+
+Question 5:
+How do you limit output rows?
+You limit the number of rows returned by a query using the LIMIT clause (in MySQL/PostgreSQL) or the TOP clause (in SQL Server).
+
+Question 6:
+Difference between = and IN
+= (Equals): Use this to compare a column to a single value.
+
+WHERE Country = 'Canada';
+
+IN: Use this to check if a column's value matches any value in a list. It's shorthand for multiple OR conditions.
+
+WHERE Country IN ('Canada', 'USA', 'Mexico');
+
+This is the same as: WHERE Country = 'Canada' OR Country = 'USA' OR Country = 'Mexico';
+
+Question 7:
+How to sort in descending order? 
+You sort results using the ORDER BY clause. To sort in descending (Z to A, 10 to 1) order, you add the DESC keyword after the column name
+
+Question 8:
+What is aliasing? 
+Aliasing is giving a temporary, alternative name to a column or a table within your query. This is done using the AS keyword (though AS is often optional). Aliases make queries shorter and results more readable.
+
+Question 9:
+Explain DISTINCT 
+The DISTINCT keyword is used with SELECT to remove duplicate rows from the result set. It ensures that every row returned is unique.
+
+Question 10:
+What is the default sort order? 
+The default sort order for an ORDER BY clause is ascending (A to Z, 1 to 10). This is represented by the ASC keyword, which is optional because it's the default.
